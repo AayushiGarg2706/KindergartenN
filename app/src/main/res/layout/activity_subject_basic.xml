@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_subject_basic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.logischtech.kindergartenn.Subject_basic">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_gravity="center"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/englishtag"
+        android:id="@+id/btneng0"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/mathtag"
+        android:id="@+id/btnmaths0"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/hinditag"
+        android:id="@+id/btnhindi0"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/msctag"
+        android:id="@+id/btnmsc0"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="40dp"
+        android:background="@drawable/voice1"
+        android:layout_marginBottom="45dp"
+        android:gravity="left"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/voice"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="55dp"
+        android:text="Voice"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="40dp"
+        android:background="@drawable/musictag"
+        android:layout_marginBottom="9dp"
+        android:gravity="left"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/music"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:text="Music"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alphabets"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7A401"
+    tools:context="com.logischtech.kindergartenn.Alphabets">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#F7A401"
+        android:layout_height="80dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="#1D5298"
+        android:layout_height="15dp" />
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:src="@drawable/aa"-->
+    <!--android:id="@+id/main"-->
+    <!--android:layout_marginTop="-150dp"-->
+    <!--android:layout_below="@+id/logo"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="430dp"
+        android:background="#1D5298"
+        android:layout_height="10dp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="90dp"
+    android:orientation="vertical"
+
+    android:layout_height="340dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#A000E0"
+        android:text="Apple"
+        android:paddingLeft="140dp"
+        android:id="@+id/tv1"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="60dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/alphabet_img"
+    android:background="#F3FBFD"
+    android:layout_height="250dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="50dp"
+        android:text="Aa"
+        android:id="@+id/tv2"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/apple"
+        android:id="@+id/img_alphabet"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_height="180dp" />
+
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#A000E0"
+        android:layout_height="30dp"
+        android:id="@+id/textView" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/left"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/voiceicons"
+            android:id="@+id/btnvoice"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/home"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="90dp"
+            android:id="@+id/right"
+            android:src="@drawable/right"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
